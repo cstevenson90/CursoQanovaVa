@@ -13,7 +13,7 @@ public class Prueba {
 
     @BeforeTest
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "");
+        System.setProperty("webdriver.chrome.driver", "/Users/excstev/Repos/CursoQanovaVa/driverNav/chromedriver");
         webDriver = new ChromeDriver();
         webDriver.get(url);
     }
@@ -28,5 +28,7 @@ public class Prueba {
         BusquedaAnimalesGoogle busquedaAnimalesGoogle = new BusquedaAnimalesGoogle();
         busquedaAnimalesGoogle.busquedaPerro(webDriver);
     }
+
+    
     
 }

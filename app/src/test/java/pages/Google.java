@@ -9,7 +9,7 @@ public class Google {
     @FindBy(className = "gLFyf")
     WebElement inputBuscar;
 
-    @FindBy(xpath = "//input[contains{@data-ved,'0ahUKEwiegaqykdH7AhXOLLkGHbXbCIYQ4dUDCAg'}]")
+    @FindBy(name = "btnK")
     WebElement btnBuscar;
 
     public Google (WebDriver webDriver){
